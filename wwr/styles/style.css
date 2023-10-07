@@ -1,0 +1,94 @@
+/* Reset some default styles for consistency */
+body, h1, h2, h3, h4, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a max-width for the entire page container */
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+/* Center certain elements */
+nav a,
+#hero-msg h1,
+#hero-msg h4,
+.button-box,
+main section {
+    text-align: center;
+}
+
+/* Create a background container with a fixed height */
+#background {
+    height: 725px;
+    /* Add background color here */
+    background-color:  #fcfbfb;
+}
+
+/* Set background colors */
+body {
+    background-color: #fcfbfb;
+}
+
+header {
+    background-color: rgba(20, 30, 13, 0.7);
+}
+
+nav a:hover,
+.book,
+.join,
+.book:hover,
+.join:hover,
+#background,
+.msg,
+footer {
+    /* Add background colors here */
+    background-color: black;
+}
+
+/* Set text colors */
+nav a,
+nav a:hover,
+.home-title,
+h4,
+.book,
+.join,
+.book:hover,
+.join:hover,
+.msg h2,
+.msg p,
+footer,
+footer a,
+footer a:hover {
+    /* Add text colors here */
+    color: white;
+}
+
+/* Add widths to specific elements */
+.logo,
+.icon {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+/* Remove underlines from certain links */
+nav a,
+.book,
+.join,
+footer a {
+    text-decoration: none;
+}
+
+/* Add underline on hover for specific links */
+footer p a:hover {
+    text-decoration: underline;
+}
+
+/* Increase font size for footer text */
+footer p {
+    font-size: 1.2em;
+}
