@@ -23,7 +23,7 @@ main section {
 #background {
     height: 725px;
     /* Add background color here */
-    background-color:  #fcfbfb;
+    background-color: rgba(20, 30, 13, 0.7);;
 }
 
 /* Set background colors */
@@ -44,7 +44,7 @@ nav a:hover,
 .msg,
 footer {
     /* Add background colors here */
-    background-color: black;
+    background-color: rgba(20, 30, 13, 0.7);;
 }
 
 /* Set text colors */
