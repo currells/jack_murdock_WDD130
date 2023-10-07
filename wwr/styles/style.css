@@ -22,17 +22,15 @@ main section {
 /* Create a background container with a fixed height */
 #background {
     height: 725px;
-    /* Add background color here */
-    background-color: rgba(20, 30, 13, 0.7);
 }
 
 /* Set background colors */
 body {
-    background-color: #fcfbfb;
+    background-color: #003554;
 }
 
 header {
-    background-color: rgba(20, 30, 13, 0.7);
+    background-color: #7C98B3;
 }
 
 nav a:hover,
@@ -44,7 +42,7 @@ nav a:hover,
 .msg,
 footer {
     /* Add background colors here */
-    background-color: olive;
+    background-color: black;
 }
 
 /* Set text colors */
@@ -62,7 +60,8 @@ footer,
 footer a,
 footer a:hover {
     /* Add text colors here */
-    color: black;
+    background-color: black;
+    color: #d9c2a3;
 }
 
 /* Add widths to specific elements */
@@ -80,6 +79,8 @@ nav a,
 .book,
 .join,
 footer a {
+    text-align: center;
+    color: #fcfbfb;
     text-decoration: none;
 }
 
