@@ -27,11 +27,11 @@ main section {
 
 /* Set background colors */
 body {
-    background-color: #003554;
+    background-color: #7C98B3;
 }
 
 header {
-    background-color: #7C98B3;
+    background-color: #003554;
 }
 
 nav a:hover,
