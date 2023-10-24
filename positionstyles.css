@@ -130,36 +130,27 @@
 /* Activity 5 styles */
 .content5 {
   /* This is the parent of the activity 5 boxes. */
-  display: grid;
-  grid-template-areas: "red green green green yellow"
-                       "red . . . yellow"
-                       "blue blue blue blue yellow";
-  grid-template-columns: repeat(4, 100px) auto;
-  grid-template-rows: auto auto auto;
+ 
 }
 
 .red5 {
-  grid-area: red;
   width: 100%;
   height: 100px;
   background-color: red;
 }
 
 .green5 {
-  grid-area: green;
   width: 100px;
   height: 100px;
   background-color: green;
 }
 
 .yellow5 {
-  grid-area: yellow;
   width: 100%;
   background-color: gold;
 }
 
 .blue5 {
-  grid-area: blue;
   width: 100%;
   height: 100px;
   background-color: blue;
