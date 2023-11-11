@@ -241,6 +241,18 @@ footer {
     grid-row: 5/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
+.intro {
+    grid-column: 2/4;
+    grid-row: 3/4;
+}
+.river1 {
+    grid-column: 5/7;
+    grid-row: 2/3;
+}
+.river2 {
+    grid-column: 8/10;
+    grid-row: 2/3;
+}
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
