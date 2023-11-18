@@ -253,7 +253,10 @@ footer {
     grid-column: 8/10;
     grid-row: 2/3;
 }
-
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
@@ -384,4 +387,3 @@ h1 {
     right: 5px;
     top: 20px;
   }
-            
