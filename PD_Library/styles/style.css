@@ -7,31 +7,65 @@ body {
 }
 
 header {
-    background-color: #a3b18a;
+    background-color: #2c3e50;
     color: #ecf0f1;
     padding: 20px;
     text-align: center;
 }
 
 nav {
-    background-color: #344e41;
+    background-color: #ecf0f1;
     margin-bottom: 20px;
+    padding: 10px; /* Add padding to the nav */
 }
 
 nav a {
     text-decoration: none;
     color: #3498db;
     margin: 0 15px;
+    font-size: 18px; /* Increase font size of nav links */
 }
 
-main {
+.home-grid {
     display: grid;
     gap: 20px;
     padding: 20px;
+    grid-template-columns: 1fr;
+}
+.book {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white; /* Set background color to white */
+    padding: 15px;
+    border-radius: 5px;
 }
 
-.welcome {
+.book img {
+    margin: 10px 0; /* Adjust margin as needed */
+}
+
+.book h2 {
     text-align: center;
+    margin: 0; /* Adjust margin as needed */
+}
+.book p {
+    color: black;
+}
+.faq {
+    background-color: #ecf0f1;
+    color: #333; /* Change color for better readability */
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left; /* Align text to the left for better readability */
+}
+
+.faq h2 {
+    color: #2c3e50; /* Change color for better readability */
+}
+
+.site-plan-link a {
+    color: #e74c3c; /* Change color of site plan link in the footer */
 }
 
 .banner {
@@ -40,20 +74,13 @@ main {
     margin-top: 20px;
 }
 
-.faq {
-    background-color: #ecf0f1;
-    color: black;
-    padding: 15px;
-    border-radius: 5px;
-}
-
 h1, h2 {
     color: #2c3e50;
 }
 
 footer {
-    background-color: #2c3e50;
-    color: #ecf0f1;
+    background-color: #ecf0f1;
+    color: #2c3e50;
     padding: 15px;
     text-align: center;
 }
@@ -61,8 +88,8 @@ footer {
 .social a {
     margin: 0 10px;
 }
+
 .social img {
     width: 30px;
     height: 30px;
 }
-
