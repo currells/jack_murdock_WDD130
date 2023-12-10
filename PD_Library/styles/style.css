@@ -42,9 +42,11 @@ nav a {
 }
 
 .book img {
-    margin: 10px 0; /* Adjust margin as needed */
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+    border-radius: 5px;
 }
-
 .book h2 {
     text-align: center;
     margin: 0; /* Adjust margin as needed */
@@ -81,7 +83,7 @@ h1, h2 {
 footer {
     background-color: #ecf0f1;
     color: #2c3e50;
-    padding: 15px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -93,3 +95,13 @@ footer {
     width: 30px;
     height: 30px;
 }
+.book-container {
+    max-width: 800px;
+    color: #333;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
