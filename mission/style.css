@@ -1,0 +1,53 @@
+/* Set default styles */
+body {
+    font-family: "Times New Roman", serif;
+    font-size: 20px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .content {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style for title */
+  .title h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  
+  .title h2 {
+    color: #006EB6;
+    margin-top: 0;
+    letter-spacing: 1px;
+  }
+  
+  /* Style for paragraphs and lists */
+  main p {
+    text-align: left;
+    margin: 10px 0;
+  }
+  
+  main ol.does-list {
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  /* Logo styles */
+  footer .logo {
+    display: block;
+    margin: 20px auto 0;
+    width: 150px;
+    height: auto;
+  }
+  
