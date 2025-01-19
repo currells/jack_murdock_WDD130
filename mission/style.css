@@ -50,4 +50,11 @@ body {
     width: 150px;
     height: auto;
   }
-  
+
+  .dark {
+    background-color: #333;
+    color: #f4f4f4;
+  }
+  .dark h2 {
+    color: #A0D4ED;
+  }
