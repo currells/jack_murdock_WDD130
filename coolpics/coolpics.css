@@ -52,7 +52,7 @@ main {
   
 section.gallery {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1em;
     padding: 1em;
   }
@@ -76,9 +76,18 @@ footer {
     font-size: 0.8em;
   }
 
+header nav {
+    flex-wrap: nowrap;
+  }
+
+  /* section.gallery {
+    grid-template-columns: 1fr 1fr 1fr;
+  } */
+
+  
   @media screen and (min-width: 700px) {
     section.gallery {
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: repeat(2, 1fr);
     }
   }
   
@@ -86,11 +95,7 @@ footer {
     header h2 {
       display: none;
     }
+    section.gallery {
+      grid-template-columns: repeat(3, 1fr);
+    }
 }
-header nav {
-    flex-wrap: nowrap;
-  }
-
-  section.gallery {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
