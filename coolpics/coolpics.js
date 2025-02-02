@@ -28,15 +28,15 @@ function openModal(event) {
     modalImage.src = clickedImageSrc;
   }
   
-  function closeModal() {
+function closeModal() {
     const modal = document.querySelector(".viewer");
     modal.style.display = "none"; 
-  }
+}
   
-  const images = document.querySelectorAll("main .Gallery img");
-  images.forEach(image => {
+const images = document.querySelectorAll("main .Gallery img");
+images.forEach(image => {
     image.addEventListener("click", openModal);
-  });
+});
   
-  const closeButton = document.querySelector(".close-viewer");
-  closeButton.addEventListener("click", closeModal);
+const closeButton = document.querySelector(".close-viewer");
+closeButton.addEventListener("click", closeModal);
