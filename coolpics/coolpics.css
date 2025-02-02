@@ -94,3 +94,9 @@ header nav {
   section.gallery {
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .hide {
+    display: none;
+  }
+  .show {
+    display: flex;
+  }
