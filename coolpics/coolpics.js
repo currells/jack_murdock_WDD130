@@ -40,3 +40,31 @@ images.forEach(image => {
   
 const closeButton = document.querySelector(".close-viewer");
 closeButton.addEventListener("click", closeModal);
+function viewerTemplate(pic, alt) {
+    return `<div class="viewer">
+      <button class="close-viewer">X</button>
+      <img src="${pic}" alt="${alt}">
+      </div>`;
+  }
+function viewHandler(event) {
+    if (event.target.tagName === "IMG") {
+      const clickedImageSrc = event.target.src;
+      
+      const imageParts = clickedImageSrc.split("-sm");
+      
+      const fullImageSrc = imageParts[0] + "-full.jpeg";
+  
+      const altText = event.target.alt;
+  
+      document.body.insertAdjacentHTML("afterbegin", viewerTemplate(fullImageSrc, altText));
+  
+      const closeButton = document.querySelector(".close-viewer");
+      closeButton.addEventListener("click", closeViewer);
+    }
+  }
+  function closeViewer() {
+    const viewer = document.querySelector(".viewer");
+    viewer.remove(); 
+  }
+const gallery = document.querySelector(".Gallery");
+gallery.addEventListener("click", viewHandler);
