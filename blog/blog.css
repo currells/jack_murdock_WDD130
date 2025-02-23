@@ -4,6 +4,10 @@
 	--burgundy: #af1b3f;
 	--dark: #473144;
 }
+* {
+	box-sizing: border-box;
+}
+
 img {
 	max-width: 100%;
 }
@@ -15,17 +19,24 @@ body {
 	padding: 0;
 	color: var(--dark);
 }
-h1,h2,h3 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
 	font-family: Lora, Impact, serif;
 }
 
-a:link, a:visited {
+a:link,
+a:visited {
 	color: var(--burgundy);
 	text-decoration: none;
 }
 a:hover {
 	text-decoration: underline;
 }
+
 header > h1 {
 	padding: 0.6em;
 	text-align: center;
@@ -46,6 +57,7 @@ nav ul {
 	padding: 1em;
 	font-size: 1.2em;
 }
+
 main {
 	display: grid;
 	grid-template-columns: 3fr 2fr;
@@ -58,6 +70,38 @@ article {
 	grid-template-columns: 240px auto;
 	margin-bottom: 2em;
 }
+
+.post-details {
+	border-right: 1px solid var(--gold);
+	margin-right: 1em;
+	padding-right: 1em;
+	text-align: right;
+}
+.post-details p {
+	margin: 0.4em 0;
+}
+.post-details__date {
+	font-size: 1.2em;
+}
+.post-content h2 {
+	margin-top: 0.1em;
+}
+.post-content figure {
+	text-align: center;
+}
+.filters {
+	border: 2px solid var(--gold);
+}
+.filters p {
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+}
+input {
+	font-size: 19px;
+	/* line-height: 1.5; */
+	padding: 0.3em 0.5em;
+}
+
 .skiptocontent a {
 	position: absolute;
 	top: -40px; /* move it off screen */
