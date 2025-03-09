@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=family=Amatic+SC&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
 :root {
 --primary-color: #1B98E0;
 --secondary-color: #59c3c3;
@@ -103,4 +103,24 @@ footer {
 }
 .social img {
 	width: 44px;
+}
+
+@media screen and (min-width: 700px) {
+	body {
+		max-width: 960px;
+		margin: 0 auto;
+	}
+	.recipe {
+		display: flex;
+		gap: 1em;
+	}
+	.recipe img {
+		width: 45%;
+	}
+	.recipe__description {
+		display: block;
+	}
+	footer {
+		flex-direction: row;
+	}
 }
